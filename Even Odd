@@ -1,0 +1,7 @@
+a=int(input("Enter num1: "))
+if a==0:
+    print("Neither even nor Odd")
+elif a%2==0:
+    print("Even")
+else:
+    print("Odd")
