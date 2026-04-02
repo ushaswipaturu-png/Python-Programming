@@ -1,0 +1,9 @@
+a=int(input("enter a: "))
+b=int(input("enter b: "))
+print("Before swapping 1st number= ",a)
+print("Before swapping 2nd number= ",b)
+Temp=a
+a=b
+b=Temp
+print("After swapping 1st number= ",a)
+print("After swapping 2nd number= ",b)
