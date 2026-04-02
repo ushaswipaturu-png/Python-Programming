@@ -1,0 +1,8 @@
+Age=int(input("ENter age: "))
+if Age==0:
+    print("Enter age above 0")
+elif Age<18:
+    print("Person not eligible for voting.")
+    print("Eligible after ",18-Age, "Year(s)")
+else:
+    print("Person eligible for voting")
