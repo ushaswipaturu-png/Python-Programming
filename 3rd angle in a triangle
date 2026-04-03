@@ -1,0 +1,4 @@
+a=int(input("Enter angle1: "))
+b=int(input("Enter angle2: " ))
+angle3=180-a-b
+print("3rd angle=",angle3)
