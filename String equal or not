@@ -1,0 +1,6 @@
+a=input("Enter a: ")
+b=input("Enter b: ")
+if a==b:
+    print("Equal")
+else:
+    print("Not equal")
